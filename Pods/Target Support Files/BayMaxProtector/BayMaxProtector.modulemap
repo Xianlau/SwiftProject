@@ -1,0 +1,6 @@
+framework module BayMaxProtector {
+  umbrella header "BayMaxProtector-umbrella.h"
+
+  export *
+  module * { export * }
+}

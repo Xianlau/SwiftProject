@@ -1,0 +1,113 @@
+PODS:
+  - Alamofire (4.9.1)
+  - AvoidCrash (2.5.2)
+  - BayMaxProtector (2.3.3)
+  - CocoaAsyncSocket (7.6.4)
+  - Differentiator (3.1.0)
+  - dsBridge (3.0.6)
+  - ESPullToRefresh (2.9.2)
+  - GoogleWebRTC (1.1.29400)
+  - HandyJSON (5.0.0-beta)
+  - Kingfisher (5.13.3):
+    - Kingfisher/Core (= 5.13.3)
+  - Kingfisher/Core (5.13.3)
+  - Moya (12.0.1):
+    - Moya/Core (= 12.0.1)
+  - Moya/Core (12.0.1):
+    - Alamofire (~> 4.1)
+    - Result (~> 4.0)
+  - Moya/RxSwift (12.0.1):
+    - Moya/Core
+    - RxSwift (~> 4.0)
+  - "NSObject+Rx (4.4.1)":
+    - RxSwift (~> 4.3)
+  - Result (4.1.0)
+  - RxCocoa (4.4.2):
+    - RxSwift (>= 4.4.2, ~> 4.4)
+  - RxDataSources (3.1.0):
+    - Differentiator (~> 3.0)
+    - RxCocoa (~> 4.0)
+    - RxSwift (~> 4.0)
+  - RxSwift (4.5.0)
+  - SnapKit (5.0.1)
+  - SQLiteRepairKit (1.2.2):
+    - WCDBOptimizedSQLCipher (~> 1.2.0)
+  - SwiftyJSON (5.0.0)
+  - SwiftyUserDefaults (4.0.0)
+  - WCDB.swift (1.0.8.2):
+    - SQLiteRepairKit (~> 1.2.0)
+    - WCDBOptimizedSQLCipher (~> 1.2.0)
+  - WCDBOptimizedSQLCipher (1.2.1)
+
+DEPENDENCIES:
+  - Alamofire
+  - AvoidCrash (= 2.5.2)
+  - BayMaxProtector
+  - CocoaAsyncSocket
+  - dsBridge
+  - ESPullToRefresh
+  - GoogleWebRTC
+  - HandyJSON (= 5.0.0-beta)
+  - Kingfisher
+  - Moya
+  - Moya/RxSwift (~> 12.0.1)
+  - "NSObject+Rx (= 4.4.1)"
+  - RxCocoa (~> 4.4.2)
+  - RxDataSources (~> 3.1.0)
+  - SnapKit
+  - SwiftyJSON
+  - SwiftyUserDefaults (= 4.0.0)
+  - WCDB.swift (= 1.0.8.2)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - AvoidCrash
+    - BayMaxProtector
+    - CocoaAsyncSocket
+    - Differentiator
+    - dsBridge
+    - ESPullToRefresh
+    - GoogleWebRTC
+    - HandyJSON
+    - Kingfisher
+    - Moya
+    - "NSObject+Rx"
+    - Result
+    - RxCocoa
+    - RxDataSources
+    - RxSwift
+    - SnapKit
+    - SQLiteRepairKit
+    - SwiftyJSON
+    - SwiftyUserDefaults
+    - WCDB.swift
+    - WCDBOptimizedSQLCipher
+
+SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  AvoidCrash: 28c6916fe19bd2b84126b8dec7cbe61c9a12741d
+  BayMaxProtector: 97f0eae859a578f8a0f66c5c7fef0d4e95e5a530
+  CocoaAsyncSocket: 694058e7c0ed05a9e217d1b3c7ded962f4180845
+  Differentiator: be49ca3408f0ecfc761e4c7763d20c62be01b9ad
+  dsBridge: 48b62ee8a411ad601a88d6f6c8cf6cb634b206b7
+  ESPullToRefresh: efed00d52597065e9a84e1e52fa444fdb1a1dee0
+  GoogleWebRTC: cfb83bc346435a17fe06bb05f04ad826b858a7fb
+  HandyJSON: b84ac9904050a0897a0802092b7cb8808e0a4e9a
+  Kingfisher: d2b3d6a7200c93b34de9afcdf25c8dd9282ec277
+  Moya: cf730b3cd9e005401ef37a85143aa141a12fd38f
+  "NSObject+Rx": 9884a92f19b610795c431e10b4e601913b59c9e9
+  Result: bd966fac789cc6c1563440b348ab2598cc24d5c7
+  RxCocoa: 477990dc3b4c3ff55fb0ac77e1cc06244e0aaec8
+  RxDataSources: a843bad90c29817f5923ec8163f4af2de084ceb3
+  RxSwift: f172070dfd1a93d70a9ab97a5a01166206e1c575
+  SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
+  SQLiteRepairKit: 35aaae5a8838adb85f5b1eb4d796055be6060a4b
+  SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
+  SwiftyUserDefaults: 6a1951df1daa19337862b677dd9a4b9bd4c288cd
+  WCDB.swift: 05d509d7a0e60fb6e11c34eb7e4027c0fab5849f
+  WCDBOptimizedSQLCipher: baf44493b0c7a3d49e97bc5b64a3856f6428ddd1
+
+PODFILE CHECKSUM: a8c701327ecbb4b10e7107784820f9b51a4c4f09
+
+COCOAPODS: 1.8.3
