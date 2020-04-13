@@ -69,8 +69,8 @@ class OnBoarding {
 fileprivate extension OnBoarding {
     
     func playLaunchVideo() {
-        let vc = HomeViewController.init()
-        appRooter!.setWindowRootViewController(vc)
+        let tabVC = appRooter!.rootTabVC
+        appRooter!.setWindowRootViewController(tabVC)
     }
     
     private func showGuidePage() {

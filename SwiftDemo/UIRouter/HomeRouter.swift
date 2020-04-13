@@ -39,7 +39,7 @@ extension HomeRouter: HomeRouterHandle {
             
             case .userCenter:
                 print("1")
-                let vc = NewViewController.init()
+                let vc = Alamofire_SwiftyJSON.init()
                 self.contextViewController?.navigationController?.pushViewController(vc, animated: true)
             case .messageCenter:
 //                let vc = NewViewController.init()

@@ -12,16 +12,14 @@ class RootTabBarController: UITabBarController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        
-        
+
         setupUI()
         creatSubViewControllers()
     }
     
     func setupUI(){
         
-        let color: UIColor = .white
+        let color: UIColor = .green
         UITabBarItem.appearance().setTitleTextAttributes([NSAttributedString.Key.foregroundColor : color], for: UIControl.State.selected)
         self.tabBar.barTintColor = .darkGray
     }

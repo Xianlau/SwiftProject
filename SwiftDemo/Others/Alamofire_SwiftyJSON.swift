@@ -11,6 +11,7 @@ import Alamofire
 import SwiftyJSON
 import Kingfisher
 
+
 // 相当于数据模型model
 class itemsModel: NSObject {
     
@@ -41,7 +42,7 @@ class Alamofire_SwiftyJSON: UIViewController,UITableViewDelegate,UITableViewData
 
         self.view.addSubview(gifttableview)
         self.AlamofireGetRequest()
-        
+        //self.AlamofirePostRequest()
         //注册cell
         gifttableview.register(SamTableViewCell.self)
     }
@@ -52,38 +53,60 @@ class Alamofire_SwiftyJSON: UIViewController,UITableViewDelegate,UITableViewData
 extension Alamofire_SwiftyJSON{
 
     func AlamofireGetRequest() {
-        Alamofire.request("http://api.liwushuo.com/v2/channels/104/items?ad=2&gender=2&generation=2&limit=20&offset=0", method: .get, parameters: nil, encoding: URLEncoding.default, headers: nil).responseJSON { (response) in
-            
-//            // 有错误就打印错误，没有就解析数据
-//            if let Error = response.result.error
-//            {
-//                print(Error)
-//            }
-//            else
-                if let jsonresult = response.result.value {
-                // 用 SwiftyJSON 解析数据
-                let JSOnDictory = JSON(jsonresult)
-                let data =  JSOnDictory["data"]["items"].array
-                for dataDic in data ?? []
-                {
-                    
-                    let model =  itemsModel()
-                    model.cover_image_url = dataDic["cover_image_url"].string ?? ""
-                    model.title =  dataDic["title"].string ?? ""
-                    
-                    let  numString = String(format:"%d",dataDic["likes_count"].intValue )
-                    model.likecount = numString
-                    self.dataArray.append(model)
-                    
-                }
+        
+        NetWorkRequest(.getPhotoList, completion: { (JSOnDictory) -> (Void) in
+            //print(json)
+            // 用 SwiftyJSON 解析数据
+            let data =  JSOnDictory["data"]["items"].array
+            for dataDic in data ?? []
+            {
+                let model =  itemsModel()
+                model.cover_image_url = dataDic["cover_image_url"].string ?? ""
+                model.title =  dataDic["title"].string ?? ""
                 
-                self.gifttableview.reloadData()
-                
-                //print(jsonresult)
-                
+                let  numString = String(format:"%d",dataDic["likes_count"].intValue )
+                model.likecount = numString
+                self.dataArray.append(model)
             }
+            self.gifttableview.reloadData()
             
+        }) { (errorStr) -> (Void) in
+            print(errorStr)
         }
+        
+//
+//        Alamofire.request("http://api.liwushuo.com/v2/channels/104/items?ad=2&gender=2&generation=2&limit=20&offset=0", method: .get, parameters: nil, encoding: URLEncoding.default, headers: nil).responseJSON { (response) in
+//
+////            // 有错误就打印错误，没有就解析数据
+////            if let Error = response.result.error
+////            {
+////                print(Error)
+////            }
+////            else
+//                if let jsonresult = response.result.value {
+//                // 用 SwiftyJSON 解析数据
+//                let JSOnDictory = JSON(jsonresult)
+//                let data =  JSOnDictory["data"]["items"].array
+//                for dataDic in data ?? []
+//                {
+//
+//                    let model =  itemsModel()
+//                    model.cover_image_url = dataDic["cover_image_url"].string ?? ""
+//                    model.title =  dataDic["title"].string ?? ""
+//
+//                    let  numString = String(format:"%d",dataDic["likes_count"].intValue )
+//                    model.likecount = numString
+//                    self.dataArray.append(model)
+//
+//                }
+//
+//                self.gifttableview.reloadData()
+//
+//                //print(jsonresult)
+//
+//            }
+//
+//        }
     }
     
     func AlamofirePostRequest() {

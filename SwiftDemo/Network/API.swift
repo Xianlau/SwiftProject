@@ -10,18 +10,21 @@ import Foundation
 import Moya
 
 enum API{
+    
+    case getPhotoList//获取图片列表
+
     case updateAPi(parameters:[String:Any])
     case register(email:String,password:String)
     //上传用户头像
     case uploadHeadImage(parameters: [String:Any],imageDate:Data)
-    case easyRequset
+    
 }
 
 extension API:TargetType{
     var baseURL: URL {
         switch self {
-        case .easyRequset:
-            return URL.init(string:"http://news-at.zhihu.com/api/")!
+        case .getPhotoList:
+            return URL.init(string:(Moya_baseURL))!
         default:
             return URL.init(string:(Moya_baseURL))!
         }
@@ -29,10 +32,13 @@ extension API:TargetType{
     
     var path: String {
         switch self {
+            
+        case .getPhotoList:
+            return "v2/channels/104/items?ad=2&gender=2&generation=2&limit=20&offset=0"
+            
         case .register:
             return "register"
-        case .easyRequset:
-            return "4/news/latest"
+
         case .updateAPi:
             return "versionService.getAppUpdateApi"
         case .uploadHeadImage( _):
@@ -42,7 +48,7 @@ extension API:TargetType{
     
     var method: Moya.Method {
         switch self {
-        case .easyRequset:
+        case .getPhotoList:
             return .get
         default:
             return .post
@@ -59,10 +65,13 @@ extension API:TargetType{
     var task: Task {
 //        return .requestParameters(parameters: nil, encoding: JSONArrayEncoding.default)
         switch self {
+            
+        case .getPhotoList:
+            return .requestPlain
+            
+            
         case let .register(email, password):
             return .requestParameters(parameters: ["email": email, "password": password], encoding: JSONEncoding.default)
-        case .easyRequset:
-            return .requestPlain
         case let .updateAPi(parameters):
             return .requestParameters(parameters: parameters, encoding: URLEncoding.default)
         //图片上传
@@ -71,16 +80,15 @@ extension API:TargetType{
             let formData = MultipartFormData(provider: .data(imageDate), name: "file",
                                               fileName: "hangge.png", mimeType: "image/png")
             return .uploadCompositeMultipart([formData], urlParameters: parameters)
-        }
+
         //可选参数https://github.com/Moya/Moya/blob/master/docs_CN/Examples/OptionalParameters.md
 //        case .users(let limit):
 //        var params: [String: Any] = [:]
 //        params["limit"] = limit
 //        return .requestParameters(parameters: params, encoding: URLEncoding.default)
+        }
     }
- 
-    
-    
+
     var headers: [String : String]? {
         return ["Content-Type":"application/x-www-form-urlencoded"]
     }
