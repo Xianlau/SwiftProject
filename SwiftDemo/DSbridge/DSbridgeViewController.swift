@@ -4,7 +4,7 @@
 //
 //  Created by sam   on 2019/8/13.
 //  Copyright © 2019 sam  . All rights reserved.
-//
+//DSBridge H5和原生的交互
 
 import UIKit
 
@@ -18,9 +18,10 @@ class DSbridgeViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        self.navigationItem.title = "DSBridge H5和原生的交互"
+        
         //设置webview
         setupWebview()
-        
         
         //NotificationCenter.default.addObserver(self, selector: #selector(getOnMessage), name: Notification.Name(rawValue: "onMessage"), object: nil)
         
@@ -124,6 +125,7 @@ class DSbridgeViewController: UIViewController {
 
     }
     
+    // MARK: - 原生调用JS方法
     @objc func callJS() {
         let dic: [String : Any] = ["name" : "liuweixiang", "age" : 20] as [String : Any]
         let jsonStr = dicToString(dic)

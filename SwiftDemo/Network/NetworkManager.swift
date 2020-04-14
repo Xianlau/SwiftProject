@@ -41,7 +41,6 @@ class NetworkManager: NSObject {
          NetWorkRequest(target, completion: completion, failed: failed, errorResult: nil)
      }
 
-
      ///  需要知道成功、失败、错误情况回调的网络请求   像结束下拉刷新各种情况都要判断
      ///
      /// - Parameters:

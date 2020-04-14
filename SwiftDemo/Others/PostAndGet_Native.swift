@@ -13,7 +13,7 @@ import Foundation
  *
  */
 
-class PostAndGet {
+class PostAndGet_Native {
     
     
     func GET1(){

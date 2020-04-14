@@ -10,6 +10,12 @@ import UIKit
 
 enum HomeSubmodule: Int {
     
+    ///图片列表 SwiftyJSON_HandyJson的使用
+    case photoList
+    
+    ///DSBridge H5和原生的交互
+    case dSBridge
+    
     /// 用户中心模块
     case userCenter
     
@@ -37,18 +43,21 @@ extension HomeRouter: HomeRouterHandle {
         
         switch submodule {
             
-            case .userCenter:
-                print("1")
+            case .photoList:
+
                 let vc = SwiftyJSON_HandyJson_VC.init()
                 self.contextViewController?.navigationController?.pushViewController(vc, animated: true)
-            case .messageCenter:
-//                let vc = NewViewController.init()
-//                self.contextViewController?.navigationController?.pushViewController(vc, animated: true)
-                print("2")
+            
+            case .dSBridge:
+                let vc = DSbridgeViewController.init()
+                self.contextViewController?.navigationController?.pushViewController(vc, animated: true)
+            
             case .appSettings:
 //                let vc = NewViewController.init()
 //                self.contextViewController?.navigationController?.pushViewController(vc, animated: true)
                 print("3")
+            default :
+                break
         }
 
     }

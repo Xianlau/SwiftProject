@@ -40,8 +40,6 @@ class Sam_SingleTon: NSObject {
      因为在 Swift 中，所有对象的构造器默认都是 public，所以需要重写你的 init 让其成为私有的。这样就保证像如下的代码编译报错，不能通过。
      *
      */
-    
-    
     private override init() {}
     
 }

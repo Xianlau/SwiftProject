@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		22119E0E226D593A009FD972 /* JsonDemo_SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22119E0D226D593A009FD972 /* JsonDemo_SwiftyJSON.swift */; };
 		223371A8230A740400DAAF61 /* JMWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223371A7230A740400DAAF61 /* JMWebView.swift */; };
-		22460337226F28A300691530 /* PostAndGet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22460336226F28A300691530 /* PostAndGet.swift */; };
+		22460337226F28A300691530 /* PostAndGet_Native.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22460336226F28A300691530 /* PostAndGet_Native.swift */; };
 		2246033D22704EAC00691530 /* SwiftyJSON_HandyJson_VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2246033C22704EAC00691530 /* SwiftyJSON_HandyJson_VC.swift */; };
 		2246033F2270685800691530 /* SamTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2246033E2270685800691530 /* SamTableViewCell.swift */; };
 		2249E6C6231664C200427CE0 /* SocketViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2249E6C5231664C200427CE0 /* SocketViewController.swift */; };
@@ -23,11 +23,8 @@
 		2249E6D9231675BB00427CE0 /* WebRTCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2249E6D8231675BB00427CE0 /* WebRTCViewController.swift */; };
 		22528BA52277F206007490D7 /* Sam_Delegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22528BA42277F206007490D7 /* Sam_Delegate.swift */; };
 		22528BA722782DE3007490D7 /* Sam_SingleTon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22528BA622782DE3007490D7 /* Sam_SingleTon.swift */; };
-		22528BA9227834B7007490D7 /* Sam_Resircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22528BA8227834B7007490D7 /* Sam_Resircle.swift */; };
-		2264B0B52334D3CB00D466F1 /* ssss.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2264B0B42334D3CB00D466F1 /* ssss.mm */; };
 		22A7A7DA228C10C0009A9B19 /* VideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A7A7D9228C10C0009A9B19 /* VideoViewController.swift */; };
 		22A7A7DC228FDB0E009A9B19 /* VideosMergeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A7A7DB228FDB0E009A9B19 /* VideosMergeViewController.swift */; };
-		22A8B529227080C6003153BF /* SamTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A8B528227080C6003153BF /* SamTool.swift */; };
 		22C1434424455F2100FC5106 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C1434324455F2100FC5106 /* NetworkManager.swift */; };
 		22C14346244586CE00FC5106 /* WebAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C14345244586CE00FC5106 /* WebAPI.swift */; };
 		22D864F42302B0B300EF12B7 /* DSbridgeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D864F32302B0B300EF12B7 /* DSbridgeViewController.swift */; };
@@ -38,7 +35,6 @@
 		22D8650923064C2900EF12B7 /* NSObject + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D8650823064C2900EF12B7 /* NSObject + Extension.swift */; };
 		22D8650B23064ECA00EF12B7 /* UIColor + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D8650A23064ECA00EF12B7 /* UIColor + Extension.swift */; };
 		22D8650D2306510900EF12B7 /* UIView + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D8650C2306510900EF12B7 /* UIView + Extension.swift */; };
-		22DEA938226DD6D900A05BD3 /* SamTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22DEA937226DD6D900A05BD3 /* SamTest.swift */; };
 		22F53E0E243C56730061631F /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F53E0D243C56730061631F /* BaseViewController.swift */; };
 		22F53E10243C568A0061631F /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F53E0F243C568A0061631F /* HomeViewController.swift */; };
 		22F53E12243C60430061631F /* RootTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F53E11243C60430061631F /* RootTabBarController.swift */; };
@@ -77,7 +73,7 @@
 /* Begin PBXFileReference section */
 		22119E0D226D593A009FD972 /* JsonDemo_SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JsonDemo_SwiftyJSON.swift; sourceTree = "<group>"; };
 		223371A7230A740400DAAF61 /* JMWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JMWebView.swift; sourceTree = "<group>"; };
-		22460336226F28A300691530 /* PostAndGet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostAndGet.swift; sourceTree = "<group>"; };
+		22460336226F28A300691530 /* PostAndGet_Native.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostAndGet_Native.swift; sourceTree = "<group>"; };
 		2246033C22704EAC00691530 /* SwiftyJSON_HandyJson_VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyJSON_HandyJson_VC.swift; sourceTree = "<group>"; };
 		2246033E2270685800691530 /* SamTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SamTableViewCell.swift; sourceTree = "<group>"; };
 		2249E6C5231664C200427CE0 /* SocketViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocketViewController.swift; sourceTree = "<group>"; };
@@ -91,12 +87,8 @@
 		2249E6D8231675BB00427CE0 /* WebRTCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebRTCViewController.swift; sourceTree = "<group>"; };
 		22528BA42277F206007490D7 /* Sam_Delegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sam_Delegate.swift; sourceTree = "<group>"; };
 		22528BA622782DE3007490D7 /* Sam_SingleTon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sam_SingleTon.swift; sourceTree = "<group>"; };
-		22528BA8227834B7007490D7 /* Sam_Resircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sam_Resircle.swift; sourceTree = "<group>"; };
-		2264B0B32334D3CB00D466F1 /* ssss.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ssss.h; sourceTree = "<group>"; };
-		2264B0B42334D3CB00D466F1 /* ssss.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ssss.mm; sourceTree = "<group>"; };
 		22A7A7D9228C10C0009A9B19 /* VideoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoViewController.swift; sourceTree = "<group>"; };
 		22A7A7DB228FDB0E009A9B19 /* VideosMergeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideosMergeViewController.swift; sourceTree = "<group>"; };
-		22A8B528227080C6003153BF /* SamTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SamTool.swift; sourceTree = "<group>"; };
 		22A8B5322271DF61003153BF /* SwiftDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwiftDemo-Bridging-Header.h"; sourceTree = "<group>"; };
 		22C1434324455F2100FC5106 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		22C14345244586CE00FC5106 /* WebAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebAPI.swift; sourceTree = "<group>"; };
@@ -108,7 +100,6 @@
 		22D8650823064C2900EF12B7 /* NSObject + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSObject + Extension.swift"; sourceTree = "<group>"; };
 		22D8650A23064ECA00EF12B7 /* UIColor + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor + Extension.swift"; sourceTree = "<group>"; };
 		22D8650C2306510900EF12B7 /* UIView + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView + Extension.swift"; sourceTree = "<group>"; };
-		22DEA937226DD6D900A05BD3 /* SamTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SamTest.swift; sourceTree = "<group>"; };
 		22F53E0D243C56730061631F /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		22F53E0F243C568A0061631F /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		22F53E11243C60430061631F /* RootTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootTabBarController.swift; sourceTree = "<group>"; };
@@ -219,6 +210,31 @@
 			path = Network;
 			sourceTree = "<group>";
 		};
+		22C143472445A47800FC5106 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				22F53E0F243C568A0061631F /* HomeViewController.swift */,
+				2246033C22704EAC00691530 /* SwiftyJSON_HandyJson_VC.swift */,
+				22F53E27243D76620061631F /* NewViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		22C143482445A48D00FC5106 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2246033E2270685800691530 /* SamTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		22C143492445A49400FC5106 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		22D864FB2303F30000EF12B7 /* DSbridge */ = {
 			isa = PBXGroup;
 			children = (
@@ -234,16 +250,10 @@
 		22D86500230403DC00EF12B7 /* Others */ = {
 			isa = PBXGroup;
 			children = (
-				22DEA937226DD6D900A05BD3 /* SamTest.swift */,
-				2264B0B32334D3CB00D466F1 /* ssss.h */,
-				2264B0B42334D3CB00D466F1 /* ssss.mm */,
 				22119E0D226D593A009FD972 /* JsonDemo_SwiftyJSON.swift */,
-				22460336226F28A300691530 /* PostAndGet.swift */,
-				2246033E2270685800691530 /* SamTableViewCell.swift */,
-				22A8B528227080C6003153BF /* SamTool.swift */,
+				22460336226F28A300691530 /* PostAndGet_Native.swift */,
 				22528BA42277F206007490D7 /* Sam_Delegate.swift */,
 				22528BA622782DE3007490D7 /* Sam_SingleTon.swift */,
-				22528BA8227834B7007490D7 /* Sam_Resircle.swift */,
 				22A7A7D9228C10C0009A9B19 /* VideoViewController.swift */,
 				22A7A7DB228FDB0E009A9B19 /* VideosMergeViewController.swift */,
 			);
@@ -264,9 +274,9 @@
 		22F53E0C243C56480061631F /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				22F53E0F243C568A0061631F /* HomeViewController.swift */,
-				2246033C22704EAC00691530 /* SwiftyJSON_HandyJson_VC.swift */,
-				22F53E27243D76620061631F /* NewViewController.swift */,
+				22C143472445A47800FC5106 /* Controller */,
+				22C143482445A48D00FC5106 /* View */,
+				22C143492445A49400FC5106 /* Model */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -550,7 +560,7 @@
 				2246033D22704EAC00691530 /* SwiftyJSON_HandyJson_VC.swift in Sources */,
 				2249E6D5231664EE00427CE0 /* String+Extension.swift in Sources */,
 				22F53E1C243C65840061631F /* AppRouter.swift in Sources */,
-				22460337226F28A300691530 /* PostAndGet.swift in Sources */,
+				22460337226F28A300691530 /* PostAndGet_Native.swift in Sources */,
 				22F53E20243C71C40061631F /* AppPreferences.swift in Sources */,
 				22F53E1A243C651C0061631F /* OnBoarding.swift in Sources */,
 				2249E6D7231664EE00427CE0 /* UITextField+Extension.swift in Sources */,
@@ -559,9 +569,7 @@
 				2249E6D2231664EE00427CE0 /* GlobalMethods.swift in Sources */,
 				2249E6C6231664C200427CE0 /* SocketViewController.swift in Sources */,
 				2246033F2270685800691530 /* SamTableViewCell.swift in Sources */,
-				2264B0B52334D3CB00D466F1 /* ssss.mm in Sources */,
 				22D8650D2306510900EF12B7 /* UIView + Extension.swift in Sources */,
-				22DEA938226DD6D900A05BD3 /* SamTest.swift in Sources */,
 				22F53E24243D73B10061631F /* HomeRouter.swift in Sources */,
 				223371A8230A740400DAAF61 /* JMWebView.swift in Sources */,
 				22F53E10243C568A0061631F /* HomeViewController.swift in Sources */,
@@ -577,8 +585,6 @@
 				22D864F42302B0B300EF12B7 /* DSbridgeViewController.swift in Sources */,
 				2249E6D6231664EE00427CE0 /* UITextView+Extension.swift in Sources */,
 				22119E0E226D593A009FD972 /* JsonDemo_SwiftyJSON.swift in Sources */,
-				22528BA9227834B7007490D7 /* Sam_Resircle.swift in Sources */,
-				22A8B529227080C6003153BF /* SamTool.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -162,11 +162,5 @@ extension WebRTCViewController: RTCPeerConnectionDelegate {
     func peerConnection(_ peerConnection: RTCPeerConnection, didOpen dataChannel: RTCDataChannel) {
         
     }
-    
-    
-    
-    
-    
-    
-    
+ 
 }

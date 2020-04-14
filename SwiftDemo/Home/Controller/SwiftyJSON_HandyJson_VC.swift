@@ -4,7 +4,7 @@
 //
 //  Created by sam   on 2019/4/24.
 //  Copyright © 2019 sam  . All rights reserved.
-//
+//SwiftyJSON_HandyJson的使用
 
 import UIKit
 import Alamofire
@@ -41,6 +41,8 @@ class SwiftyJSON_HandyJson_VC: UIViewController,UITableViewDelegate,UITableViewD
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        self.navigationItem.title = "SwiftyJSON_HandyJson的使用"
+        
         self.view.addSubview(gifttableview)
         self.AlamofireGetRequest()
         //self.AlamofirePostRequest()
