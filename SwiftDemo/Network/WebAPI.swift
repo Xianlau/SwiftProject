@@ -1,15 +1,15 @@
 //
-//  API.swift
-//  GHMoyaNetWorkTest
+//  WebAPIS.swift
+//  SwiftDemo
 //
-//  Created by Guanghui Liao on 3/30/18.
-//  Copyright © 2018 liaoworking. All rights reserved.
+//  Created by sam   on 2020/4/14.
+//  Copyright © 2020 sam  . All rights reserved.
 //https://github.com/Moya/Moya/blob/master/docs_CN/Examples/Basic.md
 
 import Foundation
 import Moya
 
-enum API{
+enum WebAPI{
     
     case getPhotoList//获取图片列表
 
@@ -20,7 +20,11 @@ enum API{
     
 }
 
-extension API:TargetType{
+/// 定义基础域名
+let Moya_baseURL = "http://api.liwushuo.com/"
+
+extension WebAPI : TargetType {
+    
     var baseURL: URL {
         switch self {
         case .getPhotoList:
