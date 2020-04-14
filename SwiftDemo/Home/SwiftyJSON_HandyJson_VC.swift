@@ -26,7 +26,7 @@ class SwiftyJSON_HandyJson_VC: UIViewController,UITableViewDelegate,UITableViewD
 
     lazy var gifttableview: UITableView = {
         let tableview: UITableView = UITableView(frame:self.view.bounds, style: .plain)
-        tableview.backgroundColor = Color.red
+        tableview.backgroundColor = .white
         tableview.delegate = self
         tableview.dataSource = self
         tableview.rowHeight = 300
@@ -69,7 +69,7 @@ extension SwiftyJSON_HandyJson_VC{
 
     func AlamofireGetRequest() {
        
-        NetworkManagerNew.NetWorkRequest(.getPhotoList, completion: { (JSOnDictory) -> (Void) in//JSOnDictory 是Json类型
+        NetworkManager.NetWorkRequest(.getPhotoList, completion: { (JSOnDictory) -> (Void) in//JSOnDictory 是Json类型
             //print(json)
             let dataARR =  JSOnDictory["data"]["items"].arrayObject
             if let arr = JSONDeserializer<ItemsModel>.deserializeModelArrayFrom(array: dataARR) {

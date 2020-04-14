@@ -9,19 +9,18 @@
 import Foundation
 import Moya
 
+
+/// 定义基础域名
+let Moya_baseURL = "http://api.liwushuo.com/"
+
 enum WebAPI{
     
     case getPhotoList//获取图片列表
 
     case updateAPi(parameters:[String:Any])
     case register(email:String,password:String)
-    //上传用户头像
-    case uploadHeadImage(parameters: [String:Any],imageDate:Data)
-    
+    case uploadHeadImage(parameters: [String:Any],imageDate:Data)//上传用户头像
 }
-
-/// 定义基础域名
-let Moya_baseURL = "http://api.liwushuo.com/"
 
 extension WebAPI : TargetType {
     
@@ -35,6 +34,7 @@ extension WebAPI : TargetType {
     }
     
     var path: String {
+        
         switch self {
             
         case .getPhotoList:
@@ -45,7 +45,8 @@ extension WebAPI : TargetType {
 
         case .updateAPi:
             return "versionService.getAppUpdateApi"
-        case .uploadHeadImage( _):
+            
+        case .uploadHeadImage:
             return "/file/user/upload.jhtml"
         }
     }
@@ -58,7 +59,6 @@ extension WebAPI : TargetType {
             return .post
         }
     }
-    
 
     //    这个是做单元测试模拟的数据，必须要实现，只在单元测试文件中有作用
     var sampleData: Data {
@@ -73,11 +73,12 @@ extension WebAPI : TargetType {
         case .getPhotoList:
             return .requestPlain
             
-            
         case let .register(email, password):
             return .requestParameters(parameters: ["email": email, "password": password], encoding: JSONEncoding.default)
+            
         case let .updateAPi(parameters):
             return .requestParameters(parameters: parameters, encoding: URLEncoding.default)
+            
         //图片上传
         case .uploadHeadImage(let parameters, let imageDate):
             ///name 和fileName 看后台怎么说，   mineType根据文件类型上百度查对应的mineType
@@ -86,10 +87,6 @@ extension WebAPI : TargetType {
             return .uploadCompositeMultipart([formData], urlParameters: parameters)
 
         //可选参数https://github.com/Moya/Moya/blob/master/docs_CN/Examples/OptionalParameters.md
-//        case .users(let limit):
-//        var params: [String: Any] = [:]
-//        params["limit"] = limit
-//        return .requestParameters(parameters: params, encoding: URLEncoding.default)
         }
     }
 

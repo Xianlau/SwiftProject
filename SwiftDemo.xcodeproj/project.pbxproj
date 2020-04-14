@@ -25,13 +25,11 @@
 		22528BA722782DE3007490D7 /* Sam_SingleTon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22528BA622782DE3007490D7 /* Sam_SingleTon.swift */; };
 		22528BA9227834B7007490D7 /* Sam_Resircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22528BA8227834B7007490D7 /* Sam_Resircle.swift */; };
 		2264B0B52334D3CB00D466F1 /* ssss.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2264B0B42334D3CB00D466F1 /* ssss.mm */; };
-		228DEC16242DCE4500A5B1AB /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 228DEC13242DCE4500A5B1AB /* NetworkManager.swift */; };
-		228DEC17242DCE4500A5B1AB /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 228DEC14242DCE4500A5B1AB /* API.swift */; };
-		228DEC18242DCE4500A5B1AB /* MoyaConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 228DEC15242DCE4500A5B1AB /* MoyaConfig.swift */; };
 		22A7A7DA228C10C0009A9B19 /* VideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A7A7D9228C10C0009A9B19 /* VideoViewController.swift */; };
 		22A7A7DC228FDB0E009A9B19 /* VideosMergeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A7A7DB228FDB0E009A9B19 /* VideosMergeViewController.swift */; };
 		22A8B529227080C6003153BF /* SamTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A8B528227080C6003153BF /* SamTool.swift */; };
-		22C1434424455F2100FC5106 /* NetworkManagerNew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C1434324455F2100FC5106 /* NetworkManagerNew.swift */; };
+		22C1434424455F2100FC5106 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C1434324455F2100FC5106 /* NetworkManager.swift */; };
+		22C14346244586CE00FC5106 /* WebAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C14345244586CE00FC5106 /* WebAPI.swift */; };
 		22D864F42302B0B300EF12B7 /* DSbridgeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D864F32302B0B300EF12B7 /* DSbridgeViewController.swift */; };
 		22D864F62302B19300EF12B7 /* JsApiTestSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D864F52302B19300EF12B7 /* JsApiTestSwift.swift */; };
 		22D864F82302B1AB00EF12B7 /* test.html in Resources */ = {isa = PBXBuildFile; fileRef = 22D864F72302B1AB00EF12B7 /* test.html */; };
@@ -96,14 +94,12 @@
 		22528BA8227834B7007490D7 /* Sam_Resircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sam_Resircle.swift; sourceTree = "<group>"; };
 		2264B0B32334D3CB00D466F1 /* ssss.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ssss.h; sourceTree = "<group>"; };
 		2264B0B42334D3CB00D466F1 /* ssss.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ssss.mm; sourceTree = "<group>"; };
-		228DEC13242DCE4500A5B1AB /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
-		228DEC14242DCE4500A5B1AB /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
-		228DEC15242DCE4500A5B1AB /* MoyaConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoyaConfig.swift; sourceTree = "<group>"; };
 		22A7A7D9228C10C0009A9B19 /* VideoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoViewController.swift; sourceTree = "<group>"; };
 		22A7A7DB228FDB0E009A9B19 /* VideosMergeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideosMergeViewController.swift; sourceTree = "<group>"; };
 		22A8B528227080C6003153BF /* SamTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SamTool.swift; sourceTree = "<group>"; };
 		22A8B5322271DF61003153BF /* SwiftDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwiftDemo-Bridging-Header.h"; sourceTree = "<group>"; };
-		22C1434324455F2100FC5106 /* NetworkManagerNew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManagerNew.swift; sourceTree = "<group>"; };
+		22C1434324455F2100FC5106 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		22C14345244586CE00FC5106 /* WebAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebAPI.swift; sourceTree = "<group>"; };
 		22D864F32302B0B300EF12B7 /* DSbridgeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSbridgeViewController.swift; sourceTree = "<group>"; };
 		22D864F52302B19300EF12B7 /* JsApiTestSwift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JsApiTestSwift.swift; sourceTree = "<group>"; };
 		22D864F72302B1AB00EF12B7 /* test.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = test.html; sourceTree = "<group>"; };
@@ -217,10 +213,8 @@
 		228DEC12242DCE4500A5B1AB /* Network */ = {
 			isa = PBXGroup;
 			children = (
-				22C1434324455F2100FC5106 /* NetworkManagerNew.swift */,
-				228DEC14242DCE4500A5B1AB /* API.swift */,
-				228DEC15242DCE4500A5B1AB /* MoyaConfig.swift */,
-				228DEC13242DCE4500A5B1AB /* NetworkManager.swift */,
+				22C1434324455F2100FC5106 /* NetworkManager.swift */,
+				22C14345244586CE00FC5106 /* WebAPI.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -551,11 +545,11 @@
 				22A7A7DA228C10C0009A9B19 /* VideoViewController.swift in Sources */,
 				22F53E0E243C56730061631F /* BaseViewController.swift in Sources */,
 				22F53E16243C634D0061631F /* ThirdLibsManager.swift in Sources */,
+				22C14346244586CE00FC5106 /* WebAPI.swift in Sources */,
 				22F53E12243C60430061631F /* RootTabBarController.swift in Sources */,
 				2246033D22704EAC00691530 /* SwiftyJSON_HandyJson_VC.swift in Sources */,
 				2249E6D5231664EE00427CE0 /* String+Extension.swift in Sources */,
 				22F53E1C243C65840061631F /* AppRouter.swift in Sources */,
-				228DEC18242DCE4500A5B1AB /* MoyaConfig.swift in Sources */,
 				22460337226F28A300691530 /* PostAndGet.swift in Sources */,
 				22F53E20243C71C40061631F /* AppPreferences.swift in Sources */,
 				22F53E1A243C651C0061631F /* OnBoarding.swift in Sources */,
@@ -570,11 +564,9 @@
 				22DEA938226DD6D900A05BD3 /* SamTest.swift in Sources */,
 				22F53E24243D73B10061631F /* HomeRouter.swift in Sources */,
 				223371A8230A740400DAAF61 /* JMWebView.swift in Sources */,
-				228DEC16242DCE4500A5B1AB /* NetworkManager.swift in Sources */,
 				22F53E10243C568A0061631F /* HomeViewController.swift in Sources */,
 				22D8650B23064ECA00EF12B7 /* UIColor + Extension.swift in Sources */,
-				22C1434424455F2100FC5106 /* NetworkManagerNew.swift in Sources */,
-				228DEC17242DCE4500A5B1AB /* API.swift in Sources */,
+				22C1434424455F2100FC5106 /* NetworkManager.swift in Sources */,
 				22D864F62302B19300EF12B7 /* JsApiTestSwift.swift in Sources */,
 				22F6A743226872070015D01F /* AppDelegate.swift in Sources */,
 				2249E6D9231675BB00427CE0 /* WebRTCViewController.swift in Sources */,
