@@ -19,7 +19,6 @@ struct ItemsModel: HandyJSON {
     var cover_image_url = ""
     var title  = ""
     var likecount = ""
-
 }
 
 class SwiftyJSON_HandyJson_VC: UIViewController,UITableViewDelegate,UITableViewDataSource {

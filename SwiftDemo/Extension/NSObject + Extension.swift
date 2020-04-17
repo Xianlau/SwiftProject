@@ -37,13 +37,14 @@ extension NSObject {
     
     ///获取一个对象的str
     var className: String {
-    
             //let project_cls_name: String = String(describing: self) //返回的是一个对象信息
             let project_cls_name: String = NSStringFromClass(type(of: self))//返回的是一个对象名称字符串
             let range = (project_cls_name as NSString).range(of: ".")
             let cls_name = (project_cls_name as NSString).substring(from: range.location + 1) as String
             return cls_name
     }
+    
+    
     
     
 }

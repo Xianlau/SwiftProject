@@ -27,6 +27,10 @@
 		22A7A7DC228FDB0E009A9B19 /* VideosMergeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A7A7DB228FDB0E009A9B19 /* VideosMergeViewController.swift */; };
 		22C1434424455F2100FC5106 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C1434324455F2100FC5106 /* NetworkManager.swift */; };
 		22C14346244586CE00FC5106 /* WebAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C14345244586CE00FC5106 /* WebAPI.swift */; };
+		22C1434B2446F9A400FC5106 /* Mirror_VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C1434A2446F9A400FC5106 /* Mirror_VC.swift */; };
+		22C1434E2449432400FC5106 /* DBmanager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C1434D2449432400FC5106 /* DBmanager.swift */; };
+		22C143502449477500FC5106 /* Sample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C1434F2449477500FC5106 /* Sample.swift */; };
+		22C143582449844000FC5106 /* WCDB_VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C143572449844000FC5106 /* WCDB_VC.swift */; };
 		22D864F42302B0B300EF12B7 /* DSbridgeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D864F32302B0B300EF12B7 /* DSbridgeViewController.swift */; };
 		22D864F62302B19300EF12B7 /* JsApiTestSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D864F52302B19300EF12B7 /* JsApiTestSwift.swift */; };
 		22D864F82302B1AB00EF12B7 /* test.html in Resources */ = {isa = PBXBuildFile; fileRef = 22D864F72302B1AB00EF12B7 /* test.html */; };
@@ -44,7 +48,7 @@
 		22F53E1E243C65ED0061631F /* RootNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F53E1D243C65ED0061631F /* RootNavigationViewController.swift */; };
 		22F53E20243C71C40061631F /* AppPreferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F53E1F243C71C40061631F /* AppPreferences.swift */; };
 		22F53E24243D73B10061631F /* HomeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F53E23243D73B10061631F /* HomeRouter.swift */; };
-		22F53E28243D76620061631F /* NewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F53E27243D76620061631F /* NewViewController.swift */; };
+		22F53E28243D76620061631F /* Model_To_Dictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F53E27243D76620061631F /* Model_To_Dictionary.swift */; };
 		22F6A743226872070015D01F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F6A742226872070015D01F /* AppDelegate.swift */; };
 		22F6A74A226872090015D01F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22F6A749226872090015D01F /* Assets.xcassets */; };
 		22F6A74D226872090015D01F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22F6A74B226872090015D01F /* LaunchScreen.storyboard */; };
@@ -92,6 +96,10 @@
 		22A8B5322271DF61003153BF /* SwiftDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwiftDemo-Bridging-Header.h"; sourceTree = "<group>"; };
 		22C1434324455F2100FC5106 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		22C14345244586CE00FC5106 /* WebAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebAPI.swift; sourceTree = "<group>"; };
+		22C1434A2446F9A400FC5106 /* Mirror_VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mirror_VC.swift; sourceTree = "<group>"; };
+		22C1434D2449432400FC5106 /* DBmanager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBmanager.swift; sourceTree = "<group>"; };
+		22C1434F2449477500FC5106 /* Sample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sample.swift; sourceTree = "<group>"; };
+		22C143572449844000FC5106 /* WCDB_VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WCDB_VC.swift; sourceTree = "<group>"; };
 		22D864F32302B0B300EF12B7 /* DSbridgeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSbridgeViewController.swift; sourceTree = "<group>"; };
 		22D864F52302B19300EF12B7 /* JsApiTestSwift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JsApiTestSwift.swift; sourceTree = "<group>"; };
 		22D864F72302B1AB00EF12B7 /* test.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = test.html; sourceTree = "<group>"; };
@@ -109,7 +117,7 @@
 		22F53E1D243C65ED0061631F /* RootNavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootNavigationViewController.swift; sourceTree = "<group>"; };
 		22F53E1F243C71C40061631F /* AppPreferences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppPreferences.swift; sourceTree = "<group>"; };
 		22F53E23243D73B10061631F /* HomeRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRouter.swift; sourceTree = "<group>"; };
-		22F53E27243D76620061631F /* NewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewViewController.swift; sourceTree = "<group>"; };
+		22F53E27243D76620061631F /* Model_To_Dictionary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model_To_Dictionary.swift; sourceTree = "<group>"; };
 		22F6A73F226872070015D01F /* SwiftDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22F6A742226872070015D01F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		22F6A749226872090015D01F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -215,7 +223,9 @@
 			children = (
 				22F53E0F243C568A0061631F /* HomeViewController.swift */,
 				2246033C22704EAC00691530 /* SwiftyJSON_HandyJson_VC.swift */,
-				22F53E27243D76620061631F /* NewViewController.swift */,
+				22C1434A2446F9A400FC5106 /* Mirror_VC.swift */,
+				22F53E27243D76620061631F /* Model_To_Dictionary.swift */,
+				22C143572449844000FC5106 /* WCDB_VC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -233,6 +243,15 @@
 			children = (
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		22C1434C2449414400FC5106 /* DB */ = {
+			isa = PBXGroup;
+			children = (
+				22C1434D2449432400FC5106 /* DBmanager.swift */,
+				22C1434F2449477500FC5106 /* Sample.swift */,
+			);
+			path = DB;
 			sourceTree = "<group>";
 		};
 		22D864FB2303F30000EF12B7 /* DSbridge */ = {
@@ -336,6 +355,7 @@
 				22F53E21243D72F00061631F /* Application */,
 				22F53E22243D73700061631F /* UIRouter */,
 				22F53E0C243C56480061631F /* Home */,
+				22C1434C2449414400FC5106 /* DB */,
 				228DEC12242DCE4500A5B1AB /* Network */,
 				2249E6C42316647E00427CE0 /* WebRTC */,
 				22D8650123054B1300EF12B7 /* Extension */,
@@ -563,6 +583,7 @@
 				22460337226F28A300691530 /* PostAndGet_Native.swift in Sources */,
 				22F53E20243C71C40061631F /* AppPreferences.swift in Sources */,
 				22F53E1A243C651C0061631F /* OnBoarding.swift in Sources */,
+				22C1434B2446F9A400FC5106 /* Mirror_VC.swift in Sources */,
 				2249E6D7231664EE00427CE0 /* UITextField+Extension.swift in Sources */,
 				2249E6D4231664EE00427CE0 /* UIButton+Extension.swift in Sources */,
 				2249E6D3231664EE00427CE0 /* UILabel+Extension.swift in Sources */,
@@ -572,13 +593,16 @@
 				22D8650D2306510900EF12B7 /* UIView + Extension.swift in Sources */,
 				22F53E24243D73B10061631F /* HomeRouter.swift in Sources */,
 				223371A8230A740400DAAF61 /* JMWebView.swift in Sources */,
+				22C143502449477500FC5106 /* Sample.swift in Sources */,
 				22F53E10243C568A0061631F /* HomeViewController.swift in Sources */,
 				22D8650B23064ECA00EF12B7 /* UIColor + Extension.swift in Sources */,
 				22C1434424455F2100FC5106 /* NetworkManager.swift in Sources */,
+				22C1434E2449432400FC5106 /* DBmanager.swift in Sources */,
 				22D864F62302B19300EF12B7 /* JsApiTestSwift.swift in Sources */,
 				22F6A743226872070015D01F /* AppDelegate.swift in Sources */,
 				2249E6D9231675BB00427CE0 /* WebRTCViewController.swift in Sources */,
-				22F53E28243D76620061631F /* NewViewController.swift in Sources */,
+				22C143582449844000FC5106 /* WCDB_VC.swift in Sources */,
+				22F53E28243D76620061631F /* Model_To_Dictionary.swift in Sources */,
 				22A7A7DC228FDB0E009A9B19 /* VideosMergeViewController.swift in Sources */,
 				22D8650723064B4A00EF12B7 /* UITableView+Extension.swift in Sources */,
 				22F53E1E243C65ED0061631F /* RootNavigationViewController.swift in Sources */,

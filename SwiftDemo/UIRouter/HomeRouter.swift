@@ -16,14 +16,14 @@ enum HomeSubmodule: Int {
     ///DSBridge H5和原生的交互
     case dSBridge
     
-    /// 用户中心模块
-    case userCenter
+    ///字典转模型 反射
+    case Model_To_Dictionary
     
-    /// 消息中心模块
-    case messageCenter
+    ///反射
+    case mirrorVC
     
-    /// app设置模块
-    case appSettings
+    ///WCDB
+    case WCDB_VC
     
 }
 
@@ -52,10 +52,18 @@ extension HomeRouter: HomeRouterHandle {
                 let vc = DSbridgeViewController.init()
                 self.contextViewController?.navigationController?.pushViewController(vc, animated: true)
             
-            case .appSettings:
-//                let vc = NewViewController.init()
-//                self.contextViewController?.navigationController?.pushViewController(vc, animated: true)
-                print("3")
+            case .Model_To_Dictionary:
+                let vc = Model_To_Dictionary.init()
+                self.contextViewController?.navigationController?.pushViewController(vc, animated: true)
+            
+            case .mirrorVC:
+                let vc = Mirror_VC.init()
+                self.contextViewController?.navigationController?.pushViewController(vc, animated: true)
+
+            
+            case .WCDB_VC:
+                let vc = WCDB_VC.init()
+                self.contextViewController?.navigationController?.pushViewController(vc, animated: true)
             default :
                 break
         }
