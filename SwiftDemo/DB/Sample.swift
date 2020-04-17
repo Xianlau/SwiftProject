@@ -6,7 +6,7 @@
 //  Copyright © 2020 sam  . All rights reserved.
 //
 
-import UIKit
+
 import WCDBSwift
 
 class Sample: NSObject,TableCodable {
@@ -26,7 +26,8 @@ class Sample: NSObject,TableCodable {
         //Column constraints for primary key, unique, not null, default value and so on. It is optional.
         static var columnConstraintBindings: [CodingKeys: ColumnConstraintBinding]? {
             return [
-                .id: ColumnConstraintBinding(isPrimary: true, isAutoIncrement: true)//自增主键
+                //自增主键的设置
+                .id: ColumnConstraintBinding(isPrimary: true, isAutoIncrement: true)
             ]
         }
 
