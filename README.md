@@ -2,7 +2,7 @@
 A Project use swift
 
 
-swfit整合项目, 项目里面有整个swift应用使用框架, (alamofire + moya )网络请求 + Swiftyjson + HandyJson的实际应用, DSBridge原生与H5交互的用法, 反射知识的使用, WCDB数据库的封装使用, WebRTC音视频直播demo, socket的使用, socket协议的封装使用等等知识点. 希望对大家有用
+swfit整合项目, 项目里面有整个swift应用框架, (alamofire + moya )网络请求框架 + Swiftyjson + HandyJson的实际应用, DSBridge原生与H5交互的用法, 反射知识的使用, WCDB数据库的封装使用, WebRTC音视频直播demo, socket的使用, socket协议的封装使用等等知识点. 希望对大家有用
 
 相关的技术说明文档:
 
