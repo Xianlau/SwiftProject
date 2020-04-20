@@ -83,34 +83,4 @@ extension SwiftyJSON_HandyJson_VC{
         }
     }
 
-//    func AlamofirePostRequest() {
-//        let dic: [String: String] = ["key1": "value1"] // 参数
-//        // JSONEncoding.prettyPrinted 是提交json
-//        Alamofire.request("https://httpbin.org/post", method: .post, parameters: dic, encoding: URLEncoding.default, headers: nil).responseJSON { (response) in
-//
-//            //方式y1
-//            if response.error == nil {
-//                print("Post 请求成功：\(response.result.value ?? "")")
-//            }else{
-//                print("Post 请求失败：\(response.error ?? "" as! Error)")
-//            }
-//
-//            //方式2
-//            switch response.result.isSuccess {
-//            case true:
-//                //把得到的JSON数据转为数组
-//                if let items = response.result.value as? NSArray{
-//                    //遍历数组得到每一个字典模型
-//                    for dict in items{
-//                        print(dict)
-//                    }
-//                }
-//            case false:
-//                print(response.result.error ?? "")
-//            }
-//
-//
-//
-//        }
-//    }
 }

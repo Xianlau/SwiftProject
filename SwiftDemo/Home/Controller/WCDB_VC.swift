@@ -15,6 +15,7 @@ class WCDB_VC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.view.backgroundColor = .white
+        self.navigationItem.title = "WCDB数据库的使用"
         
         let a = Sample.init()
         a.password = "a1a1a11a"
