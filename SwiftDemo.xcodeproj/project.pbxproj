@@ -15,7 +15,7 @@
 		22528BA52277F206007490D7 /* Sam_Delegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22528BA42277F206007490D7 /* Sam_Delegate.swift */; };
 		22528BA722782DE3007490D7 /* Sam_SingleTon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22528BA622782DE3007490D7 /* Sam_SingleTon.swift */; };
 		22A147CE244D79F600FF2373 /* WebrtcConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A147C2244D79F600FF2373 /* WebrtcConfig.swift */; };
-		22A147CF244D79F600FF2373 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A147C4244D79F600FF2373 /* TestViewController.swift */; };
+		22A147CF244D79F600FF2373 /* WebRTC_VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A147C4244D79F600FF2373 /* WebRTC_VC.swift */; };
 		22A147D0244D79F600FF2373 /* WebRTCVideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A147C5244D79F600FF2373 /* WebRTCVideoView.swift */; };
 		22A147D1244D79F600FF2373 /* SessionDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A147C7244D79F600FF2373 /* SessionDescription.swift */; };
 		22A147D2244D79F600FF2373 /* IceCandidate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A147C8244D79F600FF2373 /* IceCandidate.swift */; };
@@ -83,7 +83,7 @@
 		22528BA42277F206007490D7 /* Sam_Delegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sam_Delegate.swift; sourceTree = "<group>"; };
 		22528BA622782DE3007490D7 /* Sam_SingleTon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sam_SingleTon.swift; sourceTree = "<group>"; };
 		22A147C2244D79F600FF2373 /* WebrtcConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebrtcConfig.swift; sourceTree = "<group>"; };
-		22A147C4244D79F600FF2373 /* TestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
+		22A147C4244D79F600FF2373 /* WebRTC_VC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebRTC_VC.swift; sourceTree = "<group>"; };
 		22A147C5244D79F600FF2373 /* WebRTCVideoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebRTCVideoView.swift; sourceTree = "<group>"; };
 		22A147C7244D79F600FF2373 /* SessionDescription.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionDescription.swift; sourceTree = "<group>"; };
 		22A147C8244D79F600FF2373 /* IceCandidate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IceCandidate.swift; sourceTree = "<group>"; };
@@ -181,11 +181,11 @@
 		22A147C1244D79F600FF2373 /* WebRTCUtil */ = {
 			isa = PBXGroup;
 			children = (
+				22A147CD244D79F600FF2373 /* WebRTCManager.swift */,
 				22A147C2244D79F600FF2373 /* WebrtcConfig.swift */,
 				22A147C3244D79F600FF2373 /* WebRTCTest */,
 				22A147C6244D79F600FF2373 /* Extensions */,
 				22A147C9244D79F600FF2373 /* Services */,
-				22A147CD244D79F600FF2373 /* WebRTCManager.swift */,
 			);
 			path = WebRTCUtil;
 			sourceTree = "<group>";
@@ -193,7 +193,7 @@
 		22A147C3244D79F600FF2373 /* WebRTCTest */ = {
 			isa = PBXGroup;
 			children = (
-				22A147C4244D79F600FF2373 /* TestViewController.swift */,
+				22A147C4244D79F600FF2373 /* WebRTC_VC.swift */,
 				22A147C5244D79F600FF2373 /* WebRTCVideoView.swift */,
 			);
 			path = WebRTCTest;
@@ -570,7 +570,7 @@
 			files = (
 				22A147CE244D79F600FF2373 /* WebrtcConfig.swift in Sources */,
 				22528BA52277F206007490D7 /* Sam_Delegate.swift in Sources */,
-				22A147CF244D79F600FF2373 /* TestViewController.swift in Sources */,
+				22A147CF244D79F600FF2373 /* WebRTC_VC.swift in Sources */,
 				22528BA722782DE3007490D7 /* Sam_SingleTon.swift in Sources */,
 				22D8650923064C2900EF12B7 /* NSObject + Extension.swift in Sources */,
 				22A147D5244D79F600FF2373 /* SocketClient.swift in Sources */,

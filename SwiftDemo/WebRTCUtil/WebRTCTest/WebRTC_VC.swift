@@ -8,11 +8,12 @@
 
 import UIKit
 
-class TestViewController: UIViewController {
+class WebRTC_VC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        self.navigationItem.title = "WebRTC 的使用demo"
         
         let view = WebRTCVideoView.init(frame: self.view.bounds)
         let manager = WebRTCManager.shareInstance

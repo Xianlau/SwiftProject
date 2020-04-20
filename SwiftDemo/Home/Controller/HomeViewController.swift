@@ -25,7 +25,7 @@ class HomeViewController: BaseViewController {
         return tableview
     }()
     
-    let itemARR: [String] = ["alamofire + SwiftyJSON + HandyJson 的使用", "DSBridge H5和原生的交互", "反射_基本用法" ,"反射_模型转字典", "WCDB数据库"]
+    let itemARR: [String] = ["alamofire + SwiftyJSON + HandyJson 的使用", "DSBridge H5和原生的交互", "反射_基本用法" ,"反射_模型转字典", "WCDB数据库", "WebRTC 音视频直播"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -73,6 +73,9 @@ extension HomeViewController: UITableViewDelegate,UITableViewDataSource  {
             router?.gotoHomeSubmodule(.mirrorVC, params: nil)
             
         case .WCDB_VC:
+            router?.gotoHomeSubmodule(.WCDB_VC, params: nil)
+            
+        case .WebRTC_VC:
             router?.gotoHomeSubmodule(.WCDB_VC, params: nil)
             
         default:

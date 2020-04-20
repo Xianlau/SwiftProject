@@ -25,6 +25,9 @@ enum HomeSubmodule: Int {
     ///WCDB
     case WCDB_VC
     
+    //WebRTC_VC
+    case WebRTC_VC
+    
 }
 
 class HomeRouter {
@@ -64,6 +67,11 @@ extension HomeRouter: HomeRouterHandle {
             case .WCDB_VC:
                 let vc = WCDB_VC.init()
                 self.contextViewController?.navigationController?.pushViewController(vc, animated: true)
+            
+            case .WebRTC_VC:
+                let vc = WebRTC_VC.init()
+                self.contextViewController?.navigationController?.pushViewController(vc, animated: true)
+            
             default :
                 break
         }
