@@ -12,15 +12,6 @@
 		22460337226F28A300691530 /* PostAndGet_Native.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22460336226F28A300691530 /* PostAndGet_Native.swift */; };
 		2246033D22704EAC00691530 /* SwiftyJSON_HandyJson_VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2246033C22704EAC00691530 /* SwiftyJSON_HandyJson_VC.swift */; };
 		2246033F2270685800691530 /* SamTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2246033E2270685800691530 /* SamTableViewCell.swift */; };
-		2249E6C6231664C200427CE0 /* SocketViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2249E6C5231664C200427CE0 /* SocketViewController.swift */; };
-		2249E6D1231664EE00427CE0 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2249E6C9231664EE00427CE0 /* Constants.swift */; };
-		2249E6D2231664EE00427CE0 /* GlobalMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2249E6CA231664EE00427CE0 /* GlobalMethods.swift */; };
-		2249E6D3231664EE00427CE0 /* UILabel+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2249E6CC231664EE00427CE0 /* UILabel+Extension.swift */; };
-		2249E6D4231664EE00427CE0 /* UIButton+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2249E6CD231664EE00427CE0 /* UIButton+Extension.swift */; };
-		2249E6D5231664EE00427CE0 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2249E6CE231664EE00427CE0 /* String+Extension.swift */; };
-		2249E6D6231664EE00427CE0 /* UITextView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2249E6CF231664EE00427CE0 /* UITextView+Extension.swift */; };
-		2249E6D7231664EE00427CE0 /* UITextField+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2249E6D0231664EE00427CE0 /* UITextField+Extension.swift */; };
-		2249E6D9231675BB00427CE0 /* WebRTCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2249E6D8231675BB00427CE0 /* WebRTCViewController.swift */; };
 		22528BA52277F206007490D7 /* Sam_Delegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22528BA42277F206007490D7 /* Sam_Delegate.swift */; };
 		22528BA722782DE3007490D7 /* Sam_SingleTon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22528BA622782DE3007490D7 /* Sam_SingleTon.swift */; };
 		22A7A7DA228C10C0009A9B19 /* VideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A7A7D9228C10C0009A9B19 /* VideoViewController.swift */; };
@@ -80,15 +71,6 @@
 		22460336226F28A300691530 /* PostAndGet_Native.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostAndGet_Native.swift; sourceTree = "<group>"; };
 		2246033C22704EAC00691530 /* SwiftyJSON_HandyJson_VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyJSON_HandyJson_VC.swift; sourceTree = "<group>"; };
 		2246033E2270685800691530 /* SamTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SamTableViewCell.swift; sourceTree = "<group>"; };
-		2249E6C5231664C200427CE0 /* SocketViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocketViewController.swift; sourceTree = "<group>"; };
-		2249E6C9231664EE00427CE0 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
-		2249E6CA231664EE00427CE0 /* GlobalMethods.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlobalMethods.swift; sourceTree = "<group>"; };
-		2249E6CC231664EE00427CE0 /* UILabel+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UILabel+Extension.swift"; sourceTree = "<group>"; };
-		2249E6CD231664EE00427CE0 /* UIButton+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+Extension.swift"; sourceTree = "<group>"; };
-		2249E6CE231664EE00427CE0 /* String+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
-		2249E6CF231664EE00427CE0 /* UITextView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextView+Extension.swift"; sourceTree = "<group>"; };
-		2249E6D0231664EE00427CE0 /* UITextField+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextField+Extension.swift"; sourceTree = "<group>"; };
-		2249E6D8231675BB00427CE0 /* WebRTCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebRTCViewController.swift; sourceTree = "<group>"; };
 		22528BA42277F206007490D7 /* Sam_Delegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sam_Delegate.swift; sourceTree = "<group>"; };
 		22528BA622782DE3007490D7 /* Sam_SingleTon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sam_SingleTon.swift; sourceTree = "<group>"; };
 		22A7A7D9228C10C0009A9B19 /* VideoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoViewController.swift; sourceTree = "<group>"; };
@@ -167,46 +149,6 @@
 				CB94EA1C4097CEAC38A3E450 /* Pods-SwiftDemo.release.xcconfig */,
 			);
 			path = Pods;
-			sourceTree = "<group>";
-		};
-		2249E6C42316647E00427CE0 /* WebRTC */ = {
-			isa = PBXGroup;
-			children = (
-				2249E6C7231664EE00427CE0 /* Custom */,
-				2249E6C5231664C200427CE0 /* SocketViewController.swift */,
-				2249E6D8231675BB00427CE0 /* WebRTCViewController.swift */,
-			);
-			path = WebRTC;
-			sourceTree = "<group>";
-		};
-		2249E6C7231664EE00427CE0 /* Custom */ = {
-			isa = PBXGroup;
-			children = (
-				2249E6C8231664EE00427CE0 /* Constants */,
-				2249E6CB231664EE00427CE0 /* Extensions */,
-			);
-			path = Custom;
-			sourceTree = "<group>";
-		};
-		2249E6C8231664EE00427CE0 /* Constants */ = {
-			isa = PBXGroup;
-			children = (
-				2249E6C9231664EE00427CE0 /* Constants.swift */,
-				2249E6CA231664EE00427CE0 /* GlobalMethods.swift */,
-			);
-			path = Constants;
-			sourceTree = "<group>";
-		};
-		2249E6CB231664EE00427CE0 /* Extensions */ = {
-			isa = PBXGroup;
-			children = (
-				2249E6CC231664EE00427CE0 /* UILabel+Extension.swift */,
-				2249E6CD231664EE00427CE0 /* UIButton+Extension.swift */,
-				2249E6CE231664EE00427CE0 /* String+Extension.swift */,
-				2249E6CF231664EE00427CE0 /* UITextView+Extension.swift */,
-				2249E6D0231664EE00427CE0 /* UITextField+Extension.swift */,
-			);
-			path = Extensions;
 			sourceTree = "<group>";
 		};
 		228DEC12242DCE4500A5B1AB /* Network */ = {
@@ -357,7 +299,6 @@
 				22F53E0C243C56480061631F /* Home */,
 				22C1434C2449414400FC5106 /* DB */,
 				228DEC12242DCE4500A5B1AB /* Network */,
-				2249E6C42316647E00427CE0 /* WebRTC */,
 				22D8650123054B1300EF12B7 /* Extension */,
 				22D864FB2303F30000EF12B7 /* DSbridge */,
 				22D86500230403DC00EF12B7 /* Others */,
@@ -569,7 +510,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				22528BA52277F206007490D7 /* Sam_Delegate.swift in Sources */,
-				2249E6D1231664EE00427CE0 /* Constants.swift in Sources */,
 				22528BA722782DE3007490D7 /* Sam_SingleTon.swift in Sources */,
 				22D8650923064C2900EF12B7 /* NSObject + Extension.swift in Sources */,
 				22A7A7DA228C10C0009A9B19 /* VideoViewController.swift in Sources */,
@@ -578,17 +518,11 @@
 				22C14346244586CE00FC5106 /* WebAPI.swift in Sources */,
 				22F53E12243C60430061631F /* RootTabBarController.swift in Sources */,
 				2246033D22704EAC00691530 /* SwiftyJSON_HandyJson_VC.swift in Sources */,
-				2249E6D5231664EE00427CE0 /* String+Extension.swift in Sources */,
 				22F53E1C243C65840061631F /* AppRouter.swift in Sources */,
 				22460337226F28A300691530 /* PostAndGet_Native.swift in Sources */,
 				22F53E20243C71C40061631F /* AppPreferences.swift in Sources */,
 				22F53E1A243C651C0061631F /* OnBoarding.swift in Sources */,
 				22C1434B2446F9A400FC5106 /* Mirror_VC.swift in Sources */,
-				2249E6D7231664EE00427CE0 /* UITextField+Extension.swift in Sources */,
-				2249E6D4231664EE00427CE0 /* UIButton+Extension.swift in Sources */,
-				2249E6D3231664EE00427CE0 /* UILabel+Extension.swift in Sources */,
-				2249E6D2231664EE00427CE0 /* GlobalMethods.swift in Sources */,
-				2249E6C6231664C200427CE0 /* SocketViewController.swift in Sources */,
 				2246033F2270685800691530 /* SamTableViewCell.swift in Sources */,
 				22D8650D2306510900EF12B7 /* UIView + Extension.swift in Sources */,
 				22F53E24243D73B10061631F /* HomeRouter.swift in Sources */,
@@ -600,14 +534,12 @@
 				22C1434E2449432400FC5106 /* DBmanager.swift in Sources */,
 				22D864F62302B19300EF12B7 /* JsApiTestSwift.swift in Sources */,
 				22F6A743226872070015D01F /* AppDelegate.swift in Sources */,
-				2249E6D9231675BB00427CE0 /* WebRTCViewController.swift in Sources */,
 				22C143582449844000FC5106 /* WCDB_VC.swift in Sources */,
 				22F53E28243D76620061631F /* Model_To_Dictionary.swift in Sources */,
 				22A7A7DC228FDB0E009A9B19 /* VideosMergeViewController.swift in Sources */,
 				22D8650723064B4A00EF12B7 /* UITableView+Extension.swift in Sources */,
 				22F53E1E243C65ED0061631F /* RootNavigationViewController.swift in Sources */,
 				22D864F42302B0B300EF12B7 /* DSbridgeViewController.swift in Sources */,
-				2249E6D6231664EE00427CE0 /* UITextView+Extension.swift in Sources */,
 				22119E0E226D593A009FD972 /* JsonDemo_SwiftyJSON.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
