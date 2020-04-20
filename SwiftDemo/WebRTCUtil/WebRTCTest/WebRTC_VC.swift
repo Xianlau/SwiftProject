@@ -14,6 +14,7 @@ class WebRTC_VC: UIViewController {
         super.viewDidLoad()
 
         self.navigationItem.title = "WebRTC 的使用demo"
+        self.view.backgroundColor = .green
         
         let view = WebRTCVideoView.init(frame: self.view.bounds)
         let manager = WebRTCManager.shareInstance

@@ -12,9 +12,9 @@ import Foundation
 //IP地址
 //10.201.126.1
 //192.168.1.132
-fileprivate let socketHost:String = "10.201.126.1"
+fileprivate let socketHost:String = "10.201.111.1"
 //端口号
-fileprivate let socketPort:UInt16 = 6869
+fileprivate let socketPort:UInt16 = 8000
 
 // Set this to the machine's address which runs the signaling server
 //fileprivate let defaultSignalingServerUrl = URL(string: "ws://10.10.77.241")!

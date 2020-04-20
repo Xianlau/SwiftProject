@@ -13,8 +13,8 @@ import CocoaAsyncSocket
 
 // MARK:- 头尾和加密
 enum HeadTail: UInt8 {
-    case head = 0xfe
-    case tail = 0xef
+    case head = 0xab
+    case tail = 0xee
     case encrypt_method = 0
 }
 
@@ -56,7 +56,7 @@ struct SocketInfo:HandyJSON {
 
 struct PeerList {
     var peerId:Int = 0
-    var device:String = "jimu"
+    var device:String = "aabb"
 }
 
 extension SocketClient {

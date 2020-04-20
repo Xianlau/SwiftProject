@@ -76,7 +76,7 @@ extension HomeViewController: UITableViewDelegate,UITableViewDataSource  {
             router?.gotoHomeSubmodule(.WCDB_VC, params: nil)
             
         case .WebRTC_VC:
-            router?.gotoHomeSubmodule(.WCDB_VC, params: nil)
+            router?.gotoHomeSubmodule(.WebRTC_VC, params: nil)
             
         default:
             break
