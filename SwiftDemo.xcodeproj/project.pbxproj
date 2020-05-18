@@ -787,9 +787,9 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.ubtech.jimupro.dev;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ubtechinc.jimu2s;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = JimuProDev;
+				PROVISIONING_PROFILE_SPECIFIER = Jimu2s_Developer_new;
 				SWIFT_OBJC_BRIDGING_HEADER = "SwiftDemo/SwiftDemo-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -813,9 +813,9 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.ubtech.jimupro.dev;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ubtechinc.jimu2s;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = JimuProDev;
+				PROVISIONING_PROFILE_SPECIFIER = Jimu2s_Developer_new;
 				SWIFT_OBJC_BRIDGING_HEADER = "SwiftDemo/SwiftDemo-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
