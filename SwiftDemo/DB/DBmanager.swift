@@ -94,6 +94,15 @@ class DBmanager: NSObject {
         return nil
     }
     
+    /// 插入或更新
+    public func insertOrUpdateToDb<T: TableEncodable>(table: String, on propertys: [PropertyConvertible]? = nil, with object: [T], where condition: Condition? = nil) -> Void {
+        do {
+            try db?.insertOrReplace(objects: object, on: propertys, intoTable: table)
+        } catch let error {
+            debugPrint(error.localizedDescription)
+        }
+    }
+    
     ///删除数据表
     func dropTable(table: DBTableName) -> Void {
         do {

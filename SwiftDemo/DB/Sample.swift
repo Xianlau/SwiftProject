@@ -30,7 +30,6 @@ class Sample: NSObject,TableCodable {
                 .id: ColumnConstraintBinding(isPrimary: true, isAutoIncrement: true)
             ]
         }
-
     }
     
     /// 用于定义是否使用自增的方式插入
