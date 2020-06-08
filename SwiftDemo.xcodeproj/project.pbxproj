@@ -14,6 +14,9 @@
 		2246033F2270685800691530 /* SamTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2246033E2270685800691530 /* SamTableViewCell.swift */; };
 		22528BA52277F206007490D7 /* Sam_Delegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22528BA42277F206007490D7 /* Sam_Delegate.swift */; };
 		22528BA722782DE3007490D7 /* Sam_SingleTon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22528BA622782DE3007490D7 /* Sam_SingleTon.swift */; };
+		228A0B7C2488FC1200BC15E8 /* UIDevice+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 228A0B7A2488FC1200BC15E8 /* UIDevice+Extension.swift */; };
+		228A0B7D2488FC1200BC15E8 /* LayoutTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 228A0B7B2488FC1200BC15E8 /* LayoutTool.swift */; };
+		228A0B7F2488FD9200BC15E8 /* LayoutMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 228A0B7E2488FD9200BC15E8 /* LayoutMethod.swift */; };
 		22A147CE244D79F600FF2373 /* WebrtcConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A147C2244D79F600FF2373 /* WebrtcConfig.swift */; };
 		22A147CF244D79F600FF2373 /* WebRTC_VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A147C4244D79F600FF2373 /* WebRTC_VC.swift */; };
 		22A147D0244D79F600FF2373 /* WebRTCVideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A147C5244D79F600FF2373 /* WebRTCVideoView.swift */; };
@@ -82,6 +85,9 @@
 		2246033E2270685800691530 /* SamTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SamTableViewCell.swift; sourceTree = "<group>"; };
 		22528BA42277F206007490D7 /* Sam_Delegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sam_Delegate.swift; sourceTree = "<group>"; };
 		22528BA622782DE3007490D7 /* Sam_SingleTon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sam_SingleTon.swift; sourceTree = "<group>"; };
+		228A0B7A2488FC1200BC15E8 /* UIDevice+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIDevice+Extension.swift"; sourceTree = "<group>"; };
+		228A0B7B2488FC1200BC15E8 /* LayoutTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LayoutTool.swift; sourceTree = "<group>"; };
+		228A0B7E2488FD9200BC15E8 /* LayoutMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutMethod.swift; sourceTree = "<group>"; };
 		22A147C2244D79F600FF2373 /* WebrtcConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebrtcConfig.swift; sourceTree = "<group>"; };
 		22A147C4244D79F600FF2373 /* WebRTC_VC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebRTC_VC.swift; sourceTree = "<group>"; };
 		22A147C5244D79F600FF2373 /* WebRTCVideoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebRTCVideoView.swift; sourceTree = "<group>"; };
@@ -167,6 +173,16 @@
 				CB94EA1C4097CEAC38A3E450 /* Pods-SwiftDemo.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		228A0B792488FC1200BC15E8 /* UIAdaptiveKit */ = {
+			isa = PBXGroup;
+			children = (
+				228A0B7B2488FC1200BC15E8 /* LayoutTool.swift */,
+				228A0B7E2488FD9200BC15E8 /* LayoutMethod.swift */,
+				228A0B7A2488FC1200BC15E8 /* UIDevice+Extension.swift */,
+			);
+			path = UIAdaptiveKit;
 			sourceTree = "<group>";
 		};
 		228DEC12242DCE4500A5B1AB /* Network */ = {
@@ -359,6 +375,7 @@
 				228DEC12242DCE4500A5B1AB /* Network */,
 				22A147C1244D79F600FF2373 /* WebRTCUtil */,
 				22D8650123054B1300EF12B7 /* Extension */,
+				228A0B792488FC1200BC15E8 /* UIAdaptiveKit */,
 				22D864FB2303F30000EF12B7 /* DSbridge */,
 				22D86500230403DC00EF12B7 /* Others */,
 			);
@@ -569,6 +586,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				22A147CE244D79F600FF2373 /* WebrtcConfig.swift in Sources */,
+				228A0B7C2488FC1200BC15E8 /* UIDevice+Extension.swift in Sources */,
 				22528BA52277F206007490D7 /* Sam_Delegate.swift in Sources */,
 				22A147CF244D79F600FF2373 /* WebRTC_VC.swift in Sources */,
 				22528BA722782DE3007490D7 /* Sam_SingleTon.swift in Sources */,
@@ -585,6 +603,7 @@
 				22460337226F28A300691530 /* PostAndGet_Native.swift in Sources */,
 				22F53E20243C71C40061631F /* AppPreferences.swift in Sources */,
 				22F53E1A243C651C0061631F /* OnBoarding.swift in Sources */,
+				228A0B7F2488FD9200BC15E8 /* LayoutMethod.swift in Sources */,
 				22C1434B2446F9A400FC5106 /* Mirror_VC.swift in Sources */,
 				22A147D6244D79F600FF2373 /* WebRTCManager.swift in Sources */,
 				2246033F2270685800691530 /* SamTableViewCell.swift in Sources */,
@@ -594,6 +613,7 @@
 				22C143502449477500FC5106 /* Sample.swift in Sources */,
 				22F53E10243C568A0061631F /* HomeViewController.swift in Sources */,
 				22D8650B23064ECA00EF12B7 /* UIColor + Extension.swift in Sources */,
+				228A0B7D2488FC1200BC15E8 /* LayoutTool.swift in Sources */,
 				22C1434424455F2100FC5106 /* NetworkManager.swift in Sources */,
 				22C1434E2449432400FC5106 /* DBmanager.swift in Sources */,
 				22D864F62302B19300EF12B7 /* JsApiTestSwift.swift in Sources */,
@@ -706,7 +726,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -761,7 +781,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -782,7 +802,7 @@
 				DEVELOPMENT_TEAM = GLWCRSS83U;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = SwiftDemo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -808,7 +828,7 @@
 				DEVELOPMENT_TEAM = GLWCRSS83U;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = SwiftDemo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

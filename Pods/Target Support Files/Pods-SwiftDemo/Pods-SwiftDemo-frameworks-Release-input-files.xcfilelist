@@ -3,6 +3,7 @@ ${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
 ${BUILT_PRODUCTS_DIR}/AvoidCrash/AvoidCrash.framework
 ${BUILT_PRODUCTS_DIR}/BayMaxProtector/BayMaxProtector.framework
 ${BUILT_PRODUCTS_DIR}/CocoaAsyncSocket/CocoaAsyncSocket.framework
+${BUILT_PRODUCTS_DIR}/DeviceKit/DeviceKit.framework
 ${BUILT_PRODUCTS_DIR}/Differentiator/Differentiator.framework
 ${BUILT_PRODUCTS_DIR}/ESPullToRefresh/ESPullToRefresh.framework
 ${PODS_ROOT}/GoogleWebRTC/Frameworks/frameworks/WebRTC.framework

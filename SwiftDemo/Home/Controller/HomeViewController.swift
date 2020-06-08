@@ -34,11 +34,9 @@ class HomeViewController: BaseViewController {
         router = HomeRouter.init(self)
         
         self.navigationItem.title = "home"
-
         self.view.addSubview(tableview)
         //注册cell
         tableview.register(UITableViewCell.self)
-        
     }
 }
 

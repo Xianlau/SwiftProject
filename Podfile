@@ -37,5 +37,8 @@ target 'SwiftDemo' do
   pod 'RxCocoa', '~> 4.4.2'
   pod 'RxDataSources', '~> 3.1.0'
   pod 'Moya/RxSwift', '~> 12.0.1'
+  
+  #layout
+  pod 'DeviceKit'
 
 end
