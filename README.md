@@ -16,7 +16,7 @@ swfit整合项目, 项目里面有整个swift应用框架, (alamofire + moya )�
 
 [Swift 反射(2020.04.15更新)](https://www.jianshu.com/p/27783a38f6b7)
 
-
+[iOS基于CoreImage实现人脸检测](https://www.jianshu.com/p/768063caa6b9)
 
 补上一个帮助大家很好理解webrtc的单独实例demo: https://github.com/Xianlau/WebRTC_Demo
 
