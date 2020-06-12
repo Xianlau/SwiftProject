@@ -14,9 +14,11 @@
 		2246033F2270685800691530 /* SamTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2246033E2270685800691530 /* SamTableViewCell.swift */; };
 		22528BA52277F206007490D7 /* Sam_Delegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22528BA42277F206007490D7 /* Sam_Delegate.swift */; };
 		22528BA722782DE3007490D7 /* Sam_SingleTon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22528BA622782DE3007490D7 /* Sam_SingleTon.swift */; };
-		228A0B7C2488FC1200BC15E8 /* UIDevice+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 228A0B7A2488FC1200BC15E8 /* UIDevice+Extension.swift */; };
-		228A0B7D2488FC1200BC15E8 /* LayoutTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 228A0B7B2488FC1200BC15E8 /* LayoutTool.swift */; };
-		228A0B7F2488FD9200BC15E8 /* LayoutMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 228A0B7E2488FD9200BC15E8 /* LayoutMethod.swift */; };
+		2252DC972492206100B42F20 /* FaceDetectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2252DC962492206100B42F20 /* FaceDetectionViewController.swift */; };
+		2252DC9D24931DAF00B42F20 /* FaceRecognition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2252DC9C24931DAF00B42F20 /* FaceRecognition.swift */; };
+		226C6E8A248E116A002B16B7 /* UIDevice+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226C6E87248E1169002B16B7 /* UIDevice+Extension.swift */; };
+		226C6E8B248E116A002B16B7 /* LayoutTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226C6E88248E1169002B16B7 /* LayoutTool.swift */; };
+		226C6E8C248E116A002B16B7 /* LayoutMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226C6E89248E1169002B16B7 /* LayoutMethod.swift */; };
 		22A147CE244D79F600FF2373 /* WebrtcConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A147C2244D79F600FF2373 /* WebrtcConfig.swift */; };
 		22A147CF244D79F600FF2373 /* WebRTC_VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A147C4244D79F600FF2373 /* WebRTC_VC.swift */; };
 		22A147D0244D79F600FF2373 /* WebRTCVideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A147C5244D79F600FF2373 /* WebRTCVideoView.swift */; };
@@ -85,9 +87,11 @@
 		2246033E2270685800691530 /* SamTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SamTableViewCell.swift; sourceTree = "<group>"; };
 		22528BA42277F206007490D7 /* Sam_Delegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sam_Delegate.swift; sourceTree = "<group>"; };
 		22528BA622782DE3007490D7 /* Sam_SingleTon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sam_SingleTon.swift; sourceTree = "<group>"; };
-		228A0B7A2488FC1200BC15E8 /* UIDevice+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIDevice+Extension.swift"; sourceTree = "<group>"; };
-		228A0B7B2488FC1200BC15E8 /* LayoutTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LayoutTool.swift; sourceTree = "<group>"; };
-		228A0B7E2488FD9200BC15E8 /* LayoutMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutMethod.swift; sourceTree = "<group>"; };
+		2252DC962492206100B42F20 /* FaceDetectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceDetectionViewController.swift; sourceTree = "<group>"; };
+		2252DC9C24931DAF00B42F20 /* FaceRecognition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceRecognition.swift; sourceTree = "<group>"; };
+		226C6E87248E1169002B16B7 /* UIDevice+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIDevice+Extension.swift"; sourceTree = "<group>"; };
+		226C6E88248E1169002B16B7 /* LayoutTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LayoutTool.swift; sourceTree = "<group>"; };
+		226C6E89248E1169002B16B7 /* LayoutMethod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LayoutMethod.swift; sourceTree = "<group>"; };
 		22A147C2244D79F600FF2373 /* WebrtcConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebrtcConfig.swift; sourceTree = "<group>"; };
 		22A147C4244D79F600FF2373 /* WebRTC_VC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebRTC_VC.swift; sourceTree = "<group>"; };
 		22A147C5244D79F600FF2373 /* WebRTCVideoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebRTCVideoView.swift; sourceTree = "<group>"; };
@@ -175,12 +179,21 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
-		228A0B792488FC1200BC15E8 /* UIAdaptiveKit */ = {
+		2252DC9524921FE500B42F20 /* FaceRecognition */ = {
 			isa = PBXGroup;
 			children = (
-				228A0B7B2488FC1200BC15E8 /* LayoutTool.swift */,
-				228A0B7E2488FD9200BC15E8 /* LayoutMethod.swift */,
-				228A0B7A2488FC1200BC15E8 /* UIDevice+Extension.swift */,
+				2252DC962492206100B42F20 /* FaceDetectionViewController.swift */,
+				2252DC9C24931DAF00B42F20 /* FaceRecognition.swift */,
+			);
+			path = FaceRecognition;
+			sourceTree = "<group>";
+		};
+		226C6E86248E1169002B16B7 /* UIAdaptiveKit */ = {
+			isa = PBXGroup;
+			children = (
+				226C6E87248E1169002B16B7 /* UIDevice+Extension.swift */,
+				226C6E88248E1169002B16B7 /* LayoutTool.swift */,
+				226C6E89248E1169002B16B7 /* LayoutMethod.swift */,
 			);
 			path = UIAdaptiveKit;
 			sourceTree = "<group>";
@@ -375,8 +388,9 @@
 				228DEC12242DCE4500A5B1AB /* Network */,
 				22A147C1244D79F600FF2373 /* WebRTCUtil */,
 				22D8650123054B1300EF12B7 /* Extension */,
-				228A0B792488FC1200BC15E8 /* UIAdaptiveKit */,
+				226C6E86248E1169002B16B7 /* UIAdaptiveKit */,
 				22D864FB2303F30000EF12B7 /* DSbridge */,
+				2252DC9524921FE500B42F20 /* FaceRecognition */,
 				22D86500230403DC00EF12B7 /* Others */,
 			);
 			path = SwiftDemo;
@@ -586,9 +600,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				22A147CE244D79F600FF2373 /* WebrtcConfig.swift in Sources */,
-				228A0B7C2488FC1200BC15E8 /* UIDevice+Extension.swift in Sources */,
+				226C6E8A248E116A002B16B7 /* UIDevice+Extension.swift in Sources */,
 				22528BA52277F206007490D7 /* Sam_Delegate.swift in Sources */,
 				22A147CF244D79F600FF2373 /* WebRTC_VC.swift in Sources */,
+				226C6E8C248E116A002B16B7 /* LayoutMethod.swift in Sources */,
 				22528BA722782DE3007490D7 /* Sam_SingleTon.swift in Sources */,
 				22D8650923064C2900EF12B7 /* NSObject + Extension.swift in Sources */,
 				22A147D5244D79F600FF2373 /* SocketClient.swift in Sources */,
@@ -598,12 +613,13 @@
 				22F53E16243C634D0061631F /* ThirdLibsManager.swift in Sources */,
 				22C14346244586CE00FC5106 /* WebAPI.swift in Sources */,
 				22F53E12243C60430061631F /* RootTabBarController.swift in Sources */,
+				226C6E8B248E116A002B16B7 /* LayoutTool.swift in Sources */,
 				2246033D22704EAC00691530 /* SwiftyJSON_HandyJson_VC.swift in Sources */,
+				2252DC9D24931DAF00B42F20 /* FaceRecognition.swift in Sources */,
 				22F53E1C243C65840061631F /* AppRouter.swift in Sources */,
 				22460337226F28A300691530 /* PostAndGet_Native.swift in Sources */,
 				22F53E20243C71C40061631F /* AppPreferences.swift in Sources */,
 				22F53E1A243C651C0061631F /* OnBoarding.swift in Sources */,
-				228A0B7F2488FD9200BC15E8 /* LayoutMethod.swift in Sources */,
 				22C1434B2446F9A400FC5106 /* Mirror_VC.swift in Sources */,
 				22A147D6244D79F600FF2373 /* WebRTCManager.swift in Sources */,
 				2246033F2270685800691530 /* SamTableViewCell.swift in Sources */,
@@ -613,8 +629,8 @@
 				22C143502449477500FC5106 /* Sample.swift in Sources */,
 				22F53E10243C568A0061631F /* HomeViewController.swift in Sources */,
 				22D8650B23064ECA00EF12B7 /* UIColor + Extension.swift in Sources */,
-				228A0B7D2488FC1200BC15E8 /* LayoutTool.swift in Sources */,
 				22C1434424455F2100FC5106 /* NetworkManager.swift in Sources */,
+				2252DC972492206100B42F20 /* FaceDetectionViewController.swift in Sources */,
 				22C1434E2449432400FC5106 /* DBmanager.swift in Sources */,
 				22D864F62302B19300EF12B7 /* JsApiTestSwift.swift in Sources */,
 				22A147D2244D79F600FF2373 /* IceCandidate.swift in Sources */,

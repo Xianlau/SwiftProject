@@ -10,6 +10,7 @@ import UIKit
 
 enum HomeSubmodule: Int {
     
+    
     ///图片列表 SwiftyJSON_HandyJson的使用
     case photoList
     
@@ -28,6 +29,36 @@ enum HomeSubmodule: Int {
     //WebRTC_VC
     case WebRTC_VC
     
+    ///人脸识别
+    case faceRecognition
+    
+    //["alamofire + moya + HandyJson使用", "DSBridge H5和原生的交互", "反射_基本用法" ,"反射_模型转字典", "WCDB数据库", "WebRTC 音视频直播"]
+    var modualDescribtion : String {
+        switch self {
+        case .photoList:
+           return "alamofire + moya + HandyJson使用"
+            
+            case .dSBridge:
+               return "DSBridge H5和原生的交互"
+            
+            case .Model_To_Dictionary:
+               return "反射_模型转字典"
+            
+            case .mirrorVC:
+               return "反射_基本用法"
+            
+            case .WCDB_VC:
+               return "WCDB数据库"
+            
+            case .WebRTC_VC:
+               return "WebRTC 音视频直播"
+            
+            case .faceRecognition:
+               return "人脸识别"
+        }
+    }
+    
+    static let count = 7
 }
 
 class HomeRouter {
@@ -70,6 +101,10 @@ extension HomeRouter: HomeRouterHandle {
             
             case .WebRTC_VC:
                 let vc = WebRTC_VC.init()
+                self.contextViewController?.navigationController?.pushViewController(vc, animated: true)
+            
+            case .faceRecognition:
+                let vc = FaceDetectionViewController.init()
                 self.contextViewController?.navigationController?.pushViewController(vc, animated: true)
             
             default :

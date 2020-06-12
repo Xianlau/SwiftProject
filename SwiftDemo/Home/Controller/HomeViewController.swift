@@ -25,9 +25,8 @@ class HomeViewController: BaseViewController {
         return tableview
     }()
     
-    let itemARR: [String] = ["alamofire + moya + HandyJson使用", "DSBridge H5和原生的交互", "反射_基本用法" ,"反射_模型转字典", "WCDB数据库", "WebRTC 音视频直播"]
-    
     override func viewDidLoad() {
+
         super.viewDidLoad()
         self.view.backgroundColor = .white
         
@@ -43,14 +42,15 @@ class HomeViewController: BaseViewController {
 extension HomeViewController: UITableViewDelegate,UITableViewDataSource  {
 
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return self.itemARR.count
+        
+        return  HomeSubmodule.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
 
         let cell = tableView.dequeueReusableCell(with: UITableViewCell.self, for: indexPath) as UITableViewCell
         cell.selectionStyle = .none
-        cell.textLabel?.text = self.itemARR[indexPath.row]
+        cell.textLabel?.text = HomeSubmodule(rawValue: indexPath.row)?.modualDescribtion
         return cell
     }
 
@@ -76,6 +76,9 @@ extension HomeViewController: UITableViewDelegate,UITableViewDataSource  {
             
         case .WebRTC_VC:
             router?.gotoHomeSubmodule(.WebRTC_VC, params: nil)
+            
+            case .faceRecognition:
+                router?.gotoHomeSubmodule(.faceRecognition, params: nil)
             
         default:
             break
